@@ -9,7 +9,7 @@ void setup()
 void draw()
 {
   font = loadFont("Garamond30.vlw");
-  img = loadImage("Kirby2.jpg");
+  img = loadImage("https://user-images.githubusercontent.com/70599879/95652564-e18e9980-0aa6-11eb-8a41-2371081ab18a.png");
   textAlign(CENTER);
   textFont(font, 25);
   background(img);  
