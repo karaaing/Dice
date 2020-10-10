@@ -25,10 +25,7 @@ void draw()
 
 void mousePressed()
 {
-
-   noLoop();
    redraw();
-
 }
 class Die //models one single dice cube
 {
