@@ -1,7 +1,7 @@
 void setup()
 {
   size(500, 500);
-  framerate(5);
+  framerate(2);
 
 }
 void draw()
@@ -27,11 +27,6 @@ void mousePressed()
    noLoop();
    redraw;
    
-}
-
-void mouseReleased()
-{
-    loop();
 }
 
 class Die //models one single dice cube
