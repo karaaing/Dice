@@ -1,5 +1,4 @@
 PImage img;
-PFont font;
 void setup()
 {
   size(500, 500);
@@ -8,10 +7,9 @@ void setup()
 }
 void draw()
 {
-  font = loadFont("Garamond30.vlw");
-  img = loadImage("https://user-images.githubusercontent.com/70599879/95652561-ddfb1280-0aa6-11eb-90d1-73050f51917e.jpg");
+  img = loadImage("Kirby2.jpg");
   textAlign(CENTER);
-  textFont(font, 25);
+  textSize(25);
   background(img);  
   loop();
   int sum = 0;
