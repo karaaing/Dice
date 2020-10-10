@@ -1,4 +1,3 @@
-PImage img;
 void setup()
 {
   size(500, 500);
@@ -7,10 +6,9 @@ void setup()
 }
 void draw()
 {
-  img = loadImage("https://user-images.githubusercontent.com/70599879/95652561-ddfb1280-0aa6-11eb-90d1-73050f51917e.jpg");
   textAlign(CENTER);
   textSize(25);
-  background(img);  
+  background(227,236,243);
   loop();
   int sum = 0;
   for (int j = 1; j <= 6; j++){
