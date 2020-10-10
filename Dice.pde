@@ -20,11 +20,12 @@ void draw()
     }     
      
   }
-    text("The Total is:  " + sum + "!", 225, 480);
+   
 }  
 
 void mousePressed()
 {
+ text("The Total is:  " + sum + "!", 225, 480);
    noLoop();
    redraw();
 
