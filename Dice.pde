@@ -16,15 +16,17 @@ void draw()
       Die kirby = new Die(-35 +(75*i), -50 +(75 * j));
       kirby.roll();
       kirby.show();
-     sum += kirby.rollDice;
+
     }     
      
   }
+     sum += kirby.rollDice;
     text("The Total is:  " + sum + "!", 225, 480);
 }  
 
 void mousePressed()
 {
+   noLoop();
    redraw();
 }
 class Die //models one single dice cube
