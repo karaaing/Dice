@@ -7,7 +7,7 @@ void setup()
 }
 void draw()
 {
-  img = loadImage("Kirby2.jpg");
+  img = loadImage("https://user-images.githubusercontent.com/70599879/95652561-ddfb1280-0aa6-11eb-90d1-73050f51917e.jpg");
   textAlign(CENTER);
   textSize(25);
   background(img);  
