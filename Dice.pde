@@ -26,6 +26,7 @@ void draw()
 void mousePressed()
 {
    noLoop();
+   redraw;
    
 }
 
