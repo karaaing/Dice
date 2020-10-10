@@ -28,6 +28,11 @@ void mousePressed()
    redraw;
    
 }
+void mouseReleased()
+{
+  loop();
+
+}
 
 class Die //models one single dice cube
 {
