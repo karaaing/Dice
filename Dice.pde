@@ -2,7 +2,6 @@ void setup()
 {
   size(500, 500);
   framerate(5);
-  noLoop();
 
 }
 void draw()
