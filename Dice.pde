@@ -1,6 +1,7 @@
 void setup()
 {
   size(500, 500);
+  framerate(9);
   noLoop();
 
 }
@@ -16,19 +17,23 @@ void draw()
       Die kirby = new Die(-35 +(75*i), -50 +(75 * j));
       kirby.roll();
       kirby.show();
-
-    }     
-     
-  }
      sum += kirby.rollDice;
+    }      
+  }
     text("The Total is:  " + sum + "!", 225, 480);
 }  
 
 void mousePressed()
 {
    noLoop();
-   redraw();
+   
 }
+
+void mouseReleased()
+{
+    loop();
+}
+
 class Die //models one single dice cube
 {
   int myX, myY, rollDice;  
