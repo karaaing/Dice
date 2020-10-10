@@ -9,7 +9,7 @@ void draw()
   textAlign(CENTER);
   textSize(25);
   background(227,236,243);
-  loop();
+  
   int sum = 0;
   for (int j = 1; j <= 6; j++){
     for (int i = 1; i <= 6; i++){
