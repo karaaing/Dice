@@ -1,7 +1,7 @@
 void setup()
 {
   size(500, 500);
-  framerate(9);
+  framerate(5);
   noLoop();
 
 }
